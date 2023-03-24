@@ -3,11 +3,11 @@
     <mat-card-content>
       <form onsubmit="return false;">
         <mat-form-field class="example-full-width">
-          <mat-label>Login</mat-label>
+          <mat-label>{{"Login" | translate }}</mat-label>
           <input matInput value="" />
         </mat-form-field>
         <mat-form-field appearance="fill">
-          <mat-label>Enter your password</mat-label>
+          <mat-label>{{ "EnterYourPassword" | translate }}</mat-label>
           <input matInput [type]="hide ? 'password' : 'text'" />
           <button
             mat-icon-button
