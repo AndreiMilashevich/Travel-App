@@ -11,6 +11,7 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { LoginPageComponent } from './components/login-page/login-page.component';
 import { MatTabsModule } from '@angular/material/tabs';
+import { NgxTranslateModule } from './translate/translate.module';
 
 
 const importedModules = [
@@ -19,6 +20,7 @@ const importedModules = [
 	MatInputModule,
 	MatIconModule,
 	MatCardModule,
+	NgxTranslateModule,
 ];
 @NgModule({
 	declarations: [
